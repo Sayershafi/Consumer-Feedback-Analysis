@@ -88,8 +88,15 @@ The model supports **regulators, policymakers, and financial institutions** in d
 
 ---
 
+<h2 align="center">👨‍💻 Author</h2>
 
-## 👨‍💻 Author
+<p align="center">
+  <img src="https://img.icons8.com/color/96/000000/user-male-circle--v1.png" width="90" alt="Profile Icon"/><br>
+  <b>Sayer Bin Shafi</b><br>
+  🎓 MBA in <b>Business Analytics (STEM)</b>, Midwestern State University<br>
+  📍 Texas, USA
+</p>
+
 <p align="center">
   <a href="mailto:sayerbinshafi@gmail.com">
     <img src="https://img.icons8.com/color/48/000000/gmail.png" width="26"/> 
@@ -104,7 +111,6 @@ The model supports **regulators, policymakers, and financial institutions** in d
     <img src="https://img.icons8.com/material-outlined/48/000000/github.png" width="26"/>
   </a>
 </p>
-
 
 
 ---
