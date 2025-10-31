@@ -95,6 +95,42 @@ The model supports **regulators, policymakers, and financial institutions** in d
 📧 [dipondasrahul@gmail.com](mailto:dipondasrahul@gmail.com)  
 🔗 [LinkedIn](https://www.linkedin.com/in/sayershafi) | [GitHub](https://github.com/sayershafi)
 
+## 👨‍💻 Author
+
+**Sayer Bin Shafi**  
+🎓 *MBA in Business Analytics* — Midwestern State University  
+📍 Texas, USA  
+📫 [sayerbinshafi@gmail.com](mailto:sayerbinshafi@gmail.com)  
+🌐 [sayerbin.com](https://sayerbin.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/sayershafi) | [GitHub](https://github.com/Sayershafi)
+
+
+<h2 align="center">👨‍💻 Author</h2>
+
+<p align="center">
+  <img src="https://img.icons8.com/color/96/000000/user-male-circle--v1.png" width="90" alt="Profile Icon"/><br>
+  <b>Sayer Bin Shafi</b><br>
+  🎓 MBA in <b>Business Analytics (STEM)</b>, Midwestern State University<br>
+  📍 Texas, USA
+</p>
+
+<p align="center">
+  <a href="mailto:sayerbinshafi@gmail.com">
+    <img src="https://img.icons8.com/color/48/000000/gmail.png" width="26"/> 
+  </a>&nbsp;
+  <a href="https://sayerbin.com" target="_blank">
+    <img src="https://img.icons8.com/color/48/000000/domain.png" width="26"/>
+  </a>&nbsp;
+  <a href="https://www.linkedin.com/in/sayershafi" target="_blank">
+    <img src="https://img.icons8.com/color/48/000000/linkedin.png" width="26"/>
+  </a>&nbsp;
+  <a href="https://github.com/Sayershafi" target="_blank">
+    <img src="https://img.icons8.com/material-outlined/48/000000/github.png" width="26"/>
+  </a>
+</p>
+
+
+
 ---
 
 ## 🧾 Tags
