@@ -21,24 +21,24 @@ Contains millions of authentic U.S. consumer complaints across various financial
 
 ## 🧩 Methodology
 
-### 🧹 Data Preparation
+### 1. Data Preparation
 - Cleaned and standardized complaint text.  
 - Converted date columns into datetime format.  
 - Sampled 20K rows for efficient NLP processing.
 
-### 📈 Exploratory Data Analysis
+### 2. Exploratory Data Analysis
 - Identified top companies and states by complaint volume.  
 - Analyzed trends, response times, and disputed cases.
 
-### 💬 Sentiment Analysis (VADER)
+### 3. Sentiment Analysis (VADER)
 - Applied **NLTK’s VADER** to classify text into **Positive / Negative / Neutral**.  
 - Visualized sentiment distribution to measure consumer tone.
 
-### 🧠 Topic Modeling (LDA)
+### 4. Topic Modeling (LDA)
 - Used **Gensim’s LDA** for topic extraction.  
 - Revealed themes like **credit report errors**, **debt collection**, **unauthorized charges**, etc.
 
-### 🔍 Fraud Detection (ML)
+### 5. Fraud Detection (ML)
 - Tagged fraud-related complaints via keyword heuristics.  
 - Applied **TF-IDF vectorization** and trained a **Random Forest Classifier**.  
 - Achieved **98% Accuracy** and **ROC-AUC = 0.995**.
@@ -118,4 +118,3 @@ The model supports **regulators, policymakers, and financial institutions** in d
 ## 🧾 Tags
 `#AI` `#NLP` `#MachineLearning` `#FraudDetection` `#DataScience` `#FinancialAnalytics` `#Python`
 
----
