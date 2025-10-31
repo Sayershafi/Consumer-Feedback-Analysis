@@ -1,102 +1,103 @@
-# 🧠 Consumer Complaint Analysis using NLP & Machine Learning
+<h1 align="center">🧠 Consumer Complaint Analysis using NLP & Machine Learning</h1>
 
-📅 **Period:** 2019–2024  
-🧠 **Tech Stack:** Python | NLP | Machine Learning | Pandas | NLTK | Scikit-learn | Seaborn  
-
----
-
-## 🎯 Objective
-This project performs an end-to-end analysis of **U.S. Consumer Financial Protection Bureau (CFPB)** complaint data using **Natural Language Processing (NLP)** and **Machine Learning**.  
-It identifies sentiment, complaint clusters, and potential fraud indicators from thousands of consumer narratives.
+<p align="center">
+  <b>End-to-end text analytics project leveraging NLP & ML to uncover consumer sentiment, fraud patterns, and complaint trends from CFPB data.</b><br>
+  <i>📅 2019–2024 | 🧮 Python · NLP · Machine Learning · Pandas · NLTK · Scikit-learn · Seaborn</i>
+</p>
 
 ---
 
-## 📊 Dataset Used
-- **[CFPB Consumer Complaint Database](https://www.consumerfinance.gov/data-research/consumer-complaints/)**  
-  Contains millions of real consumer complaint records about financial products and institutions across the United States.
+## 🎯 Project Overview
+This project analyzes the **U.S. Consumer Financial Protection Bureau (CFPB)** complaint dataset using **Natural Language Processing (NLP)** and **Machine Learning**.  
+It identifies hidden insights from consumer narratives — such as sentiment polarity, emerging complaint clusters, and potential fraud indicators.
+
+---
+
+## 📊 Dataset
+**Source:** [CFPB Consumer Complaint Database](https://www.consumerfinance.gov/data-research/consumer-complaints/)  
+Contains millions of authentic U.S. consumer complaints across various financial products (credit cards, loans, reporting agencies, etc.).
 
 ---
 
 ## 🧩 Methodology
-1. **Data Preparation**
-   - Cleaned and standardized complaint narratives.
-   - Converted date columns into proper datetime format.
-   - Sampled 20,000 rows for efficient analysis.
-   
-2. **Exploratory Data Analysis**
-   - Identified companies and states with highest fraud-related complaints.
-   - Analyzed complaint trends, response times, and disputed cases.
 
-3. **Sentiment Analysis (VADER)**
-   - Used NLTK’s VADER to categorize complaints as **Positive, Negative, or Neutral**.
-   - Visualized sentiment distribution to gauge consumer satisfaction.
+### 🧹 Data Preparation
+- Cleaned and standardized complaint text.  
+- Converted date columns into datetime format.  
+- Sampled 20K rows for efficient NLP processing.
 
-4. **Topic Modeling (LDA)**
-   - Implemented Latent Dirichlet Allocation (LDA) to uncover hidden complaint clusters.
-   - Extracted major issues such as **credit report errors**, **debt collection**, and **unauthorized charges**.
+### 📈 Exploratory Data Analysis
+- Identified top companies and states by complaint volume.  
+- Analyzed trends, response times, and disputed cases.
 
-5. **Fraud Detection (Machine Learning)**
-   - Labeled fraud-related texts using keyword indicators.
-   - Vectorized narratives with TF-IDF and trained a **Random Forest Classifier**.
-   - Achieved **98% accuracy** and **ROC-AUC = 0.995** in fraud detection.
+### 💬 Sentiment Analysis (VADER)
+- Applied **NLTK’s VADER** to classify text into **Positive / Negative / Neutral**.  
+- Visualized sentiment distribution to measure consumer tone.
+
+### 🧠 Topic Modeling (LDA)
+- Used **Gensim’s LDA** for topic extraction.  
+- Revealed themes like **credit report errors**, **debt collection**, **unauthorized charges**, etc.
+
+### 🔍 Fraud Detection (ML)
+- Tagged fraud-related complaints via keyword heuristics.  
+- Applied **TF-IDF vectorization** and trained a **Random Forest Classifier**.  
+- Achieved **98% Accuracy** and **ROC-AUC = 0.995**.
 
 ---
 
 ## 💡 Key Insights
-- **Top Fraud Companies:** Experian, Equifax, TransUnion, PayPal, Chase  
-- **Fraud Hotspots:** California, Florida, Texas, New York  
-- **Timely Response Rate:** 98.76% of companies responded within time  
-- **Sentiment:** Over 60% of complaints expressed negative tone
+| Metric | Insight |
+|:--|:--|
+| 🏦 **Top Fraud Companies** | Experian, Equifax, TransUnion, PayPal, Chase |
+| 📍 **Hotspot States** | California, Florida, Texas, New York |
+| ⏱️ **Response Rate** | 98.76% of companies responded within time |
+| 😠 **Sentiment** | 60%+ of complaints are negative |
 
 ---
 
-## 📈 Dashboard & Visualization Previews
+## 📈 Visual Insights
 
 <div align="center">
 
-### 📊 Sentiment Distribution of Consumer Complaints
-<img width="100%" alt="Sentiment Distribution Chart" src="https://raw.githubusercontent.com/dipondasrahul-blip/Consumer-Complaint-Analysis-NLP-ML/main/Sentiment%20Distribution%20Chart.jpg" />
-*Figure 1: Overall sentiment polarity across complaint narratives.*
+### 🎭 Sentiment Distribution
+<img width="85%" alt="Sentiment Distribution" src="https://raw.githubusercontent.com/dipondasrahul-blip/Consumer-Complaint-Analysis-NLP-ML/main/Sentiment%20Distribution%20Chart.jpg" />
 
 ---
 
-### 💬 Complaint Topic Clusters (LDA Visualization)
-<img width="100%" alt="Complaint Topic Clusters" src="https://raw.githubusercontent.com/dipondasrahul-blip/Consumer-Complaint-Analysis-NLP-ML/main/Complaint%20Topic%20Clusters.jpg" />
-*Figure 2: Key complaint themes extracted through topic modeling.*
+### 🧩 Complaint Topic Clusters (LDA)
+<img width="85%" alt="Complaint Topic Clusters" src="https://raw.githubusercontent.com/dipondasrahul-blip/Consumer-Complaint-Analysis-NLP-ML/main/Complaint%20Topic%20Clusters.jpg" />
 
 ---
 
-### ⚠️ Confusion Matrix & ROC-AUC for Fraud Detection Model
-
-<img width="100%" alt="Confusion Matrix ROC-AUC Visualization" src="https://raw.githubusercontent.com/dipondasrahul-blip/Consumer-Complaint-Analysis-NLP-ML/main/Confusion_Matrix.jpg" />
-
-*Figure 3: Model evaluation showing 98% accuracy and AUC = 0.995.*
-
+### ⚠️ Fraud Detection Model (Confusion Matrix & ROC-AUC)
+<img width="85%" alt="Confusion Matrix" src="https://raw.githubusercontent.com/dipondasrahul-blip/Consumer-Complaint-Analysis-NLP-ML/main/Confusion_Matrix.jpg" />
 
 </div>
 
 ---
 
-## 🧰 Tools & Libraries
-`Python`, `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`,  
-`NLTK (VADER)`, `Gensim (LDA)`, `Scikit-learn (RandomForest)`, `PyLDAvis`
+## 🧰 Tech Stack
+`Python` · `Pandas` · `NumPy` · `Matplotlib` · `Seaborn`  
+`NLTK (VADER)` · `Gensim (LDA)` · `Scikit-learn (RandomForest)` · `PyLDAvis`
 
 ---
 
 ## 🏁 Outcome
-Developed an AI-powered analytical framework to detect potential financial fraud patterns and consumer dissatisfaction trends in real time.  
-Supports **regulators, policymakers, and financial institutions** in strengthening consumer protection and market transparency.
+Built an AI-driven framework for real-time consumer complaint monitoring.  
+The model supports **regulators, policymakers, and financial institutions** in detecting fraud and improving customer experience transparency.
 
 ---
 
 ## 👨‍💻 Author
-**Dipon Das Rahul**  
+**Sayer Bin Shafi**  
 🎓 MBA in Business Analytics (STEM), Midwestern State University  
 📍 Texas, USA  
 📧 [dipondasrahul@gmail.com](mailto:dipondasrahul@gmail.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/diponrahul) | [GitHub](https://github.com/dipondasrahul-blip)
+🔗 [LinkedIn](https://www.linkedin.com/in/sayershafi) | [GitHub](https://github.com/sayershafi)
 
 ---
 
 ## 🧾 Tags
-`#AI` `#NLP` `#MachineLearning` `#FraudDetection` `#FinancialAnalytics` `#CFPB` `#Python` `#DataScience`
+`#AI` `#NLP` `#MachineLearning` `#FraudDetection` `#DataScience` `#FinancialAnalytics` `#Python`
+
+---
